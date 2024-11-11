@@ -4,6 +4,7 @@
 	<remote fetch="https://git.yoctoproject.org" name="yocto" />
 	<remote fetch="https://git.openembedded.org" name="oe" />
 	<remote fetch="https://github.com/" name="github" />
+    <remote fetch="ssh://git@gitlab.gremsy.vn:2224/ai/tay-cu" name="ocr" />
 
 	<default revision="kirkstone" />
 
@@ -22,4 +23,5 @@
 	<project name="meta-qt5/meta-qt5" path="src/meta-qt5" remote="github" revision="644ebf220245bdc06e7696ccc90acc97a0dd2566" />
 	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" revision="312ff1c39b1bf5d35c0321e873417eb013cea477" />
     <project name="ifzhang/ByteTrack" path="src/bytetrack" remote="github" revision="main" />
+    <project name="license-plate-recognition-tensorrt" path="src/ocr" remote="ocr" revision="develop" />
 </manifest>
