@@ -8,12 +8,12 @@
 
 	<default revision="kirkstone" />
 
-	<project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-kirkstone-v24.0" />
-	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" revision="refs/tags/rity-kirkstone-v24.0" />
-	<project name="meta-mediatek-tsn.git" path="src/meta-mediatek-tsn" remote="rity" revision="refs/tags/rity-kirkstone-v24.0" />
-	<project name="meta-mediatek-demo.git" path="src/meta-mediatek-demo" remote="rity" revision="refs/tags/rity-kirkstone-v24.0" />
-	<project name="meta-mediatek-bluedroid.git" path="src/meta-mediatek-bluedroid" remote="rity" revision="refs/tags/rity-kirkstone-v24.0" />
-	<project name="meta-nn.git" path="src/meta-nn" remote="rity" revision="refs/tags/rity-kirkstone-v24.0" />
+	<project groups="mediatek_AIOT" name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-kirkstone-v24.0" />
+	<project groups="mediatek_AIOT" name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" revision="refs/tags/rity-kirkstone-v24.0" />
+	<project groups="mediatek_AIOT" name="meta-mediatek-tsn.git" path="src/meta-mediatek-tsn" remote="rity" revision="refs/tags/rity-kirkstone-v24.0" />
+	<project groups="mediatek_AIOT" name="meta-mediatek-demo.git" path="src/meta-mediatek-demo" remote="rity" revision="refs/tags/rity-kirkstone-v24.0" />
+	<project groups="mediatek_AIOT" name="meta-mediatek-bluedroid.git" path="src/meta-mediatek-bluedroid" remote="rity" revision="refs/tags/rity-kirkstone-v24.0" />
+	<project groups="mediatek_AIOT" name="meta-nn.git" path="src/meta-nn" remote="rity" revision="refs/tags/rity-kirkstone-v24.0" />
 	<project name="meta-stress-test.git" path="src/meta-stress-test" remote="rity" revision="refs/tags/rity-kirkstone-v24.0" />
 	<project name="poky.git" path="src/poky" remote="yocto" revision="dc98af7cabb7b5db6bfa82ef78baf9d7fd7827d2" />
 	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" revision="d7b7b6fb6c7c5545e718e44f38853d1718ce5446" />
