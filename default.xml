@@ -9,7 +9,7 @@
 
     <project name="byte-track-eigen" path="bytetrack" remote="bytetrack" revision="refs/tags/2.1.0" />
     <project name="yolov5" path="libs/models/yolov5" remote="ultralytics" revision="refs/tags/v7.0" />
-    <project name="TensorRT-Alpha/yolov5/" path="libs/include" remote="tensorrt" revision="refs/tags/v0.1" />
+    <project name="TensorRT-Alpha/tree/main/yolov5" path="libs/include" remote="tensorrt" revision="refs/tags/v0.1" />
     <!-- <project name="cj-mills/byte-track-eigen" path="bytetrack" remote="github" revision="refs/tags/2.1.0" /> -->
 
 	<!-- <project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-kirkstone-v24.0" />
