@@ -8,7 +8,7 @@
 	<default revision="main" />
 
     <project name="byte-track-eigen" path="bytetrack/" remote="tracking" revision="main" />
-    <project name="yolov5" path="libs/models/" remote="ultralytics" revision="refs/tags/v7.0" />
+    <project name="yolov5" path="libs/models/yolov5" remote="ultralytics" revision="refs/tags/v7.0" />
 	<project name="TensorRT-yolov5" path="libs/" remote="tensorrt" revision="main" />
 	<project name="Yolov5_Tensort_Test" path="test/" remote="tensorrt" revision="main" />
 
