@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote fetch="https://github.com" name="github" />
+    <remote fetch="https://github.com/cj-mills" name="bytetrack" />
 	<remote fetch="https://github.com/ultralytics" name="ultralytics" />
-	<remote fetch="https://git.yoctoproject.org" name="yocto" />
+	<remote fetch="https://github.com/FeiYull" name="tensorrt" />
 	<remote fetch="https://git.openembedded.org" name="oe" />
 
 	<default revision="kirkstone" />
 
-    <project name="cj-mills/byte-track-eigen" path="bytetrack" remote="github" revision="refs/tags/2.1.0" />
-    <project name="yolov5" path="libs/models" remote="ultralytics" revision="refs/tags/v7.0" />
+    <project name="byte-track-eigen" path="bytetrack" remote="bytetrack" revision="refs/tags/2.1.0" />
+    <project name="yolov5" path="libs/models/yolov5" remote="ultralytics" revision="refs/tags/v7.0" />
+    <project name="TensorRT-Alpha/yolov5/" path="libs/include" remote="tensorrt" revision="refs/tags/v0.1" />
     <!-- <project name="cj-mills/byte-track-eigen" path="bytetrack" remote="github" revision="refs/tags/2.1.0" /> -->
 
 	<!-- <project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-kirkstone-v24.0" />
